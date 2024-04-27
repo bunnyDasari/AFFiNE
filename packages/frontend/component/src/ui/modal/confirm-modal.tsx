@@ -50,11 +50,7 @@ export const ConfirmModal = ({
           reverse: reverseFooter,
         })}
       >
-        <DialogTrigger asChild>
-          <Button onClick={onCancel} {...cancelButtonOptions}>
-            {cancelText}
-          </Button>
-        </DialogTrigger>
+        
         <Button onClick={onConfirmClick} {...confirmButtonOptions}></Button>
       </div>
     </Modal>
